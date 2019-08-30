@@ -1,16 +1,16 @@
 MD-links-labo
 
-##Preámbulo
+## Preámbulo
 [Markdown](https://es.wikipedia.org/wiki/Markdown) es un lenguaje de marcado
 ligero muy popular entre developers. Aunque la sintaxis de markdown está orientada a publicar texto, muchas veces dichos archivos contienen links que añaden o complementan la información. 
 Sin embargo, a veces esos links están caídos o no redireccionan a ninguna parte.
 
 La solución que proporciona este proyecto es la devolución de una estadística de los links activos y caídos.
 
-##¿Qué es MD-links-labo?
+## ¿Qué es MD-links-labo?
 Es una librería que sirve para devolver el número de links que contiene un archivo MD, así como el status de éstos.
 
-##Objetivo del proyecto
+## Objetivo del proyecto
 Proporcionar una librería que ayude al usuario a depurar un archivo MD de links que no son funcionales. Los links se imprimen en la consola y muestran el 
 
 ## Documentación técnica de la librería.
@@ -33,16 +33,16 @@ Las herramientas y dependencias implementadas para la construcción de esta libr
 |Línea de comando CLI|
 
 
-##Instalación
+## Instalación
 Debes abrir la terminal y posicionarte en la carpeta donde quieres utilizar la librería para depurar los links en los archivos md. Debes ejecutar el comando `npm install md-links-labo`
 Para ello debes haber instalado [node.js](https://nodejs.org/en/) previamente (al instalar node.js también se instala npm)
 
 En caso de que necesites posicionarte fuera de esa carpeta (es decir, globalmente) puedes ejecutar el comando añadiendo -g
 `npm install -g md-links-labo`
 
-##Guía de uso:
+## Guía de uso:
 
-##Uso mediante terminal
+## Uso mediante terminal
 ### Comportamiento por defecto (para obtener un listado de links)
  Habiendo instalado la librería previamente, ingresa `md-links-labo <ruta del archivo a depurar>` + enter. Debe imprimirse en la consola una lista de los links contenidos en el archivo MD. 
 
@@ -50,7 +50,7 @@ El comportamiento sólo identifica el archivo MD, lo analiza e imprime los links
 
 Para filtrar el status y la cantidad de links es necesario agregar opciones. 
 
-###Options
+### Options
 
 #### --validate
 
@@ -61,7 +61,7 @@ Para filtrar el status y la cantidad de links es necesario agregar opciones.
 
 También es posible combinar ambas opciones para obtener estadísticas de links que hayan sido validados para comprobar su actividad. 
 
-###Ejemplos
+### Ejemplos
 
 1. Para saber si los links están activos o no
 Ingresa `md-links-labo <ruta del archivo a depurar> --validate`. La consola debe retornar "ok" cuando los links se encuentren activos y "false" cuando estén caídos.
@@ -86,14 +86,14 @@ Si además deseas filtrar los links o validarlo, puedes agregar como parámetro 
     mdLinks('archivoquequieresenchular.md'), {stats: true}; //Puedes ingresar también stats, validate o ambos.
 ```
 
-##Planeación
+## Planeación
 
 [Trello](https://trello.com/b/tQXTouQk/md-links)
 [Project Board](https://github.com/vivianaberron/MEX008-FE-md-link/projects/1):
 
 ![Tablero kanban rústico](./tablero.jpeg)
 
-###Diagrama de flujo
+### Diagrama de flujo
 ![Diagrama](./diagrama.png)
 
 
@@ -121,12 +121,12 @@ Si además deseas filtrar los links o validarlo, puedes agregar como parámetro 
       lines, y branches.
 - [ ] Pasa tests (y linters) (`npm test`).
 
-### CLI
+## CLI
 
-- [] Expone ejecutable `md-links` en el path (configurado en `package.json`)
-- [] Se ejecuta sin errores / output esperado
-- [] Implementa `--validate`
-- [] Implementa `--stats`
+- [ ] Expone ejecutable `md-links` en el path (configurado en `package.json`)
+- [ ] Se ejecuta sin errores / output esperado
+- [ ] Implementa `--validate`
+- [ ] Implementa `--stats`
 
 ## Hacker Edition
 
@@ -135,6 +135,6 @@ Si además deseas filtrar los links o validarlo, puedes agregar como parámetro 
 - [ ] Puedes agregar más estadísticas.
 - [ ] Integración continua con Travis o Circle CI.
 
-##Autor
+## Autor
 
 - Mayra Viviana Berrón Márquez
