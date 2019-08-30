@@ -1,4 +1,30 @@
 {
-  "name": "md-links",
-  "version": "0.1.0"
+  "name": "md-links-labo",
+  "version": "1.0.0",
+  "description": "libreria que permite buscar links en un archivo md",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivianaberron/MEX008-FE-md-link.git"
+  },
+  "keywords": [
+    "javascript",
+    "npm",
+    "md"
+  ],
+  "author": "Viviana Berron",
+  "license": "ISC",
+  "bin": {
+    "md-links": "lib/cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/vivianaberron/MEX008-FE-md-link/issues"
+  },
+  "homepage": "https://github.com/vivianaberron/MEX008-FE-md-link#readme"
 }
