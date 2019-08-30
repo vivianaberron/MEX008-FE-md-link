@@ -110,10 +110,10 @@ Si además deseas filtrar los links o validarlo, puedes agregar como parámetro 
 
 ### API `mdLinks(path, opts)`
 
-- [] El módulo exporta una función con la interfaz (API) esperada.
-- [] Implementa soporte para archivo individual
-- [] Implementa soporte para directorios
-- [] Implementa `options.validate`
+- [ ] El módulo exporta una función con la interfaz (API) esperada.
+- [ ] Implementa soporte para archivo individual
+- [ ] Implementa soporte para directorios
+- [ ] Implementa `options.validate`
 
 ### Pruebas / tests
 
