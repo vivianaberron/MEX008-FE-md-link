@@ -4,7 +4,16 @@ const mdLinks = require('../');
 describe('mdLinks', () => {
 
   it('should...', () => {
-    console.log('FIX ME!');
+   
   });
 
+
+it('debería ser una función', () => {
+  assert.equal(typeof mdLinks, 'function');
+  console.log('Si es una funcion');
 });
+
+
+});
+
+
