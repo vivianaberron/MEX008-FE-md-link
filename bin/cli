@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+//execute the code of cli here e.g
+//Llama a index.js
+require('../')

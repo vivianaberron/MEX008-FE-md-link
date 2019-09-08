@@ -1,22 +1,32 @@
 {
   "name": "md-link-rebeca",
-  "version": "1.0.0",
-  "description": "## Índice",
+  "version": "1.0.1",
+  "description": "Esta libreria halla los links que se encuentran en un archivo markdown ", 
   "main": "index.js",
   "directories": {
     "test": "test"
   },
+  "keywords": [
+    "markdown",
+    "links"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mdLinks"
+  },
+  "bin": {
+    "mdLinks": "bin/cli"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rebe-san/MEX008-FE-md-link.git"
   },
-  "author": "",
+  "author": "Rebeca C. Santiago",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rebe-san/MEX008-FE-md-link/issues"
   },
-  "homepage": "https://github.com/rebe-san/MEX008-FE-md-link#readme"
+  "homepage": "https://github.com/rebe-san/MEX008-FE-md-link#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
 }
